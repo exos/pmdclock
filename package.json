@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "CLI clock agent/client for pomodoro",
   "main": "index.js",
+  "bin": {
+    "pmdclock": "./bin/pmdclock",
+    "pmdclock-agent": "./bin/pmdclock-agent"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +14,8 @@
   "license": "WTFPL",
   "dependencies": {
     "bluebird": "^3.4.7",
+    "commander": "^2.9.0",
+    "daemon": "^1.1.0",
     "etc": "^1.1.0",
     "node-ipc": "^8.10.2",
     "uuid": "^3.0.1"
