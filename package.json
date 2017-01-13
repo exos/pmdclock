@@ -8,15 +8,15 @@
     "pmdclock-agent": "./bin/pmdclock-agent",
     "pmdclock-info": "./bin/pmdclock-info",
     "pmdclock-start": "./bin/pmdclock-start",
-    "pmdclock-start": "./bin/pmdclock-finish",
-    "pmdclock-start": "./bin/pmdclock-cancel",
-    "pmdclock-start": "./bin/pmdclock-rest",
-    "pmdclock-start": "./bin/pmdclock-list"
+    "pmdclock-finish": "./bin/pmdclock-finish",
+    "pmdclock-cancel": "./bin/pmdclock-cancel",
+    "pmdclock-rest": "./bin/pmdclock-rest",
+    "pmdclock-list": "./bin/pmdclock-list"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Exos <exos@exodica.com.ar>",
   "license": "WTFPL",
   "dependencies": {
     "bluebird": "^3.4.7",
