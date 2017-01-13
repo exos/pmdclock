@@ -1,6 +1,6 @@
 {
   "name": "pmdclock",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "CLI clock agent/client for pomodoro",
   "main": "bin/pmdclock",
   "bin": {
@@ -9,6 +9,8 @@
     "pmdclock-info": "./bin/pmdclock-info",
     "pmdclock-start": "./bin/pmdclock-start",
     "pmdclock-start": "./bin/pmdclock-finish",
+    "pmdclock-start": "./bin/pmdclock-cancel",
+    "pmdclock-start": "./bin/pmdclock-rest",
     "pmdclock-start": "./bin/pmdclock-list"
   },
   "scripts": {
