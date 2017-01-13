@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+async@^0.9.0:
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/async/-/async-0.9.2.tgz#aea74d5e61c1f899613bf64bda66d4c78f2fd17d"
+
 bluebird@^3.4.7:
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
@@ -92,6 +96,16 @@ minimatch@~0.2.11:
     lru-cache "2"
     sigmund "~1.0.0"
 
+minimist@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+
+mkdirp@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
+  dependencies:
+    minimist "0.0.8"
+
 moment@^2.17.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
@@ -104,6 +118,13 @@ node-ipc@^8.10.2:
     event-pubsub "4.2.3"
     js-message ">=1.0.5"
     js-queue ">=2.0.0"
+
+node-storage@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/node-storage/-/node-storage-0.0.7.tgz#aa3252b4cd786eb0c95ee509c22df9b3b68586d1"
+  dependencies:
+    async "^0.9.0"
+    mkdirp "^0.5.0"
 
 optimist@~0.3.4:
   version "0.3.7"
