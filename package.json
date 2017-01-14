@@ -2,12 +2,20 @@
   "name": "pmdclock",
   "version": "0.9.0",
   "description": "CLI clock agent/client for pomodoro",
+  "keywords": "pomodoro, clock",
   "main": "bin/pmdclock",
   "bin": {
     "pmdclock": "./bin/pmdclock"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exos/pmdclock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/exos/pmdclock/issues"
   },
   "author": "Exos <exos@exodica.com.ar>",
   "license": "WTFPL",
@@ -23,5 +31,9 @@
     "node-ipc": "^8.10.2",
     "node-storage": "^0.0.7",
     "uuid": "^3.0.1"
+  },
+  "engines" : {
+      "node" : "~7.4.0",
+      "os" : [ "darwin", "linux" ]
   }
 }
