@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"argparse@~ 0.1.11":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-0.1.16.tgz#cfd01e0fbba3d6caed049fbd758d40f65196f57c"
+  dependencies:
+    underscore "~1.7.0"
+    underscore.string "~2.4.0"
+
 async@^0.9.0:
   version "0.9.2"
   resolved "https://registry.yarnpkg.com/async/-/async-0.9.2.tgz#aea74d5e61c1f899613bf64bda66d4c78f2fd17d"
@@ -20,11 +27,7 @@ clone@~0.1.6:
   version "0.1.19"
   resolved "https://registry.yarnpkg.com/clone/-/clone-0.1.19.tgz#613fb68639b26a494ac53253e15b1a6bd88ada85"
 
-colors@*:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
-
-colors@1.0.3:
+colors@*, colors@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
 
@@ -45,6 +48,16 @@ debug@~0.7.0:
 easy-stack@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/easy-stack/-/easy-stack-1.0.0.tgz#12c91b3085a37f0baa336e9486eac4bf94e3e788"
+
+"esprima@~ 1.0.2":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-1.0.4.tgz#9f557e08fc3b4d26ece9dd34f8fbf476b62585ad"
+
+etc-yaml@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/etc-yaml/-/etc-yaml-0.0.5.tgz#26d7ce51ec96b6e4743e44e98904955f60b36719"
+  dependencies:
+    js-yaml "~3.0.2"
 
 etc@^1.1.0:
   version "1.1.0"
@@ -90,6 +103,13 @@ js-queue@>=2.0.0:
   resolved "https://registry.yarnpkg.com/js-queue/-/js-queue-2.0.0.tgz#362213cf860f468f0125fc6c96abc1742531f948"
   dependencies:
     easy-stack "^1.0.0"
+
+js-yaml@~3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.0.2.tgz#9937865f8e897a5e894e73c2c5cf2e89b32eb771"
+  dependencies:
+    argparse "~ 0.1.11"
+    esprima "~ 1.0.2"
 
 libnotify@^1.0.4:
   version "1.0.4"
@@ -171,6 +191,14 @@ tea-merge@~0.1.0:
 tea-type@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/tea-type/-/tea-type-0.1.0.tgz#a138a6beb00ff4984874a4f75f3589ef1821af82"
+
+underscore.string@~2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/underscore.string/-/underscore.string-2.4.0.tgz#8cdd8fbac4e2d2ea1e7e2e8097c42f442280f85b"
+
+underscore@~1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.7.0.tgz#6bbaf0877500d36be34ecaa584e0db9fef035209"
 
 uuid@^3.0.1:
   version "3.0.1"
