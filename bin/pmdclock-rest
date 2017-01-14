@@ -1,5 +1,0 @@
-#!/bin/env node
-
-const cli = require("../lib/cli");
-
-cli.rest(process.argv);
