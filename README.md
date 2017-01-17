@@ -130,6 +130,9 @@ The complete params are:
 |restIcon|String|Rest icon in list[1]|o/|
 |largeRestIcon|String|Large rest icon[1]|...|
 |largeRestRunningIcon|String|Icon for running large rest[1]|:D|
+|reverseSort|Boolean|List in reverse by default|false|
+|defaultListHead|Number|List appling --head parman by default, see ```pmdclock list --help```|0|
+|defaultListTail|Number|List appling --tail parman by default, see ```pmdclock list --help```|0|
 
 ## 0: Info variables
 
