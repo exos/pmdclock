@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/exos/pmdclock/issues"
   },
-  "author": "Exos <exos@exodica.com.ar>",
+  "author": "Exos <oscar@gentisoft.com>",
   "license": "WTFPL",
   "dependencies": {
     "bluebird": "^3.4.7",
