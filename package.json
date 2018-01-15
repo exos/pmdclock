@@ -1,6 +1,6 @@
 {
   "name": "pmdclock",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc2",
   "description": "CLI clock agent/client for pomodoro",
   "keywords": "pomodoro, clock",
   "main": "bin/pmdclock",
