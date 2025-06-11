@@ -28,12 +28,15 @@
     "etc-yaml": "^0.0.5",
     "libnotify": "^1.0.4",
     "moment": "^2.17.1",
-    "node-ipc": "^8.10.2",
+    "node-ipc": "^12.0.0",
     "node-storage": "^0.0.7",
-    "uuid": "^3.0.1"
+    "uuid": "^11.1.0"
   },
-  "engines" : {
-      "node" : "~7.4.0",
-      "os" : [ "darwin", "linux" ]
+  "engines": {
+    "node": ">=20",
+    "os": [
+      "darwin",
+      "linux"
+    ]
   }
 }

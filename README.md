@@ -14,7 +14,7 @@ Clock for pomodore control based on an agent
 
 # Install 
 
-You need node.js (~7.4.0 recommended) and npm installed.
+You need node.js (>=20) and npm installed.
 
     $ sudo npm install -g pmdclock
 
