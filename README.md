@@ -18,6 +18,12 @@ You need node.js (>=20) and npm installed.
 
     $ sudo npm install -g pmdclock
 
+## Running tests
+
+Install dependencies and run the test suite with:
+
+    $ npx jest
+
 # Usage
 
 Start the agent:
