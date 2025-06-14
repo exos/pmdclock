@@ -8,7 +8,8 @@
     "pmdclock": "./bin/pmdclock"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ncu:update": "ncu -u && npm install"
   },
   "repository": {
     "type": "git",
