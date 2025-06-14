@@ -8,7 +8,7 @@
     "pmdclock": "./bin/pmdclock"
   },
   "scripts": {
-    "test": "jest"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
